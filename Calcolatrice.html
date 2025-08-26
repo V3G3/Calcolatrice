@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="Calcolatrice.css" type="text/css">
+</head>
+<body>
+    <div id="container">
+        <input type="text" id="txt" placeholder="Digit Something">
+        <div id="first" class="divisori">
+            <button id="seven" class="figures" value="7">7</button>
+            <button id="eight" class="figures" value="8">8</button>
+            <button id="nine" class="figures" value="9">9</button>
+            <button id="plus" class="operators" value="+">+</button>
+        </div>
+        <div id="second" class="divisori">
+            <button id="four" class="figures" value="4">4</button>
+            <button id="five" class="figures" value="5">5</button>
+            <button id="six" class="figures" value="6">6</button>
+            <button id="minus" class="operators" value="-">-</button>
+        </div>
+        <div id="third" class="divisori">
+            <button id="one" class="figures" value="1">1</button>
+            <button id="two" class="figures" value="2">2</button>
+            <button id="three" class="figures" value="3">3</button>
+            <button id="multiplication" class="operators" value="*">*</button>
+        </div>
+        <div id="fourth" class="divisori">
+            <button id="cancel" onclick="cancel()">C</button>
+            <button id="zero" class="figures" value="0">0</button>
+            <button id="equal" onclick="equal()">=</button>
+            <button id="division" class="operators" value="/">/</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="Calcolatrice.js"></script>
+</body>
+</html>
